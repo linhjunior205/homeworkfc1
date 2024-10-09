@@ -21,6 +21,7 @@ public class Author {
     public Author() {
 
     }
+
     public void enterAuthorInfo(Scanner input) throws ParseException {
         System.out.println("Enter AuthorID: ");
         this.authorID = input.nextLine();
@@ -58,8 +59,6 @@ public class Author {
     public void setDateOfBirth(Date dateOfBirth) {
         this.dateOfBirth = dateOfBirth;
     }
-
-    
 
     public String toString() {
         SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");
